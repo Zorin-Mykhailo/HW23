@@ -5,6 +5,6 @@ internal class Program
     static void Main(string[] args)
     {
         Calculator calc = new();
-        Console.WriteLine(calc.Sum(2, 2));
+        Console.WriteLine(calc.Multiply(2, 2));
     }
 }
