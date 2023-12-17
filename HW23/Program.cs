@@ -4,7 +4,7 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        var res = 10.0 % 0.0;
-        Console.WriteLine(res);
+        Calculator calc = new();
+        Console.WriteLine(calc.Sum(2, 2));
     }
 }
